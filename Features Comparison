@@ -14,3 +14,126 @@
 - **QuickBooks**: Supports both Cash Basis and Accrual Basis.
 - **TotalFlow**: Supports Accrual Basis only.
 - **Recommendation**: Add support for Cash Basis accounting
+
+# Inventory Information
+
+## Overview
+The "Inventory Information" feature is a crucial aspect of managing inventory efficiently. It provides detailed data on inventory items, enabling businesses to track stock levels, storage locations, and reorder points effectively.
+
+Below is a comparison of the sub-items available in QuickBooks versus TotalFlow, along with descriptions and recommendations for missing features.
+
+---
+
+## Comparison with QuickBooks
+
+### Sub-Items in Inventory Information
+
+1. **Quantity**
+   - **Description**: Tracks the number of units available for a specific inventory item.
+   - **Current State in TotalFlow**: Supported.
+   - **Importance**: Fundamental for inventory management.
+
+2. **Location**
+   - **Description**: Specifies the physical location where the inventory item is stored (e.g., a specific store or warehouse).
+   - **Current State in TotalFlow**: **Missing**.
+   - **Importance**: Helps track inventory across multiple locations, reducing the risk of stock misplacement.
+   - **Recommendation**: Add a "Location" field to associate items with their physical storage sites.
+
+3. **Rack**
+   - **Description**: Indicates the specific rack within a warehouse where the inventory is stored.
+   - **Current State in TotalFlow**: **Missing**.
+   - **Importance**: Crucial for large warehouses to organize items systematically and ensure quick retrieval.
+   - **Recommendation**: Introduce a "Rack" field for granular inventory tracking.
+
+4. **Shelf**
+   - **Description**: Refers to the exact shelf within a rack where the inventory is placed.
+   - **Current State in TotalFlow**: **Missing**.
+   - **Importance**: Enhances inventory organization, especially for smaller items stored in large quantities.
+   - **Recommendation**: Add a "Shelf" field for detailed storage information.
+
+5. **Bin**
+   - **Description**: Represents the bin or compartment used to store individual inventory items.
+   - **Current State in TotalFlow**: **Missing**.
+   - **Importance**: Vital for highly specific inventory categorization in industries like manufacturing and retail.
+   - **Recommendation**: Include a "Bin" field to improve storage precision.
+
+6. **Warehouse**
+   - **Description**: Identifies the warehouse where the inventory is stored.
+   - **Current State in TotalFlow**: Supported.
+   - **Importance**: Essential for businesses with multiple warehouses.
+
+7. **Onhand**
+   - **Description**: Displays the total quantity of an item currently available for sale or use.
+   - **Current State in TotalFlow**: Supported.
+   - **Importance**: Directly impacts order fulfillment and sales planning.
+
+8. **Total Value**
+   - **Description**: Represents the monetary value of the on-hand inventory for a given item.
+   - **Current State in TotalFlow**: Supported.
+   - **Importance**: Useful for financial reporting and inventory valuation.
+
+9. **As of Date**
+   - **Description**: Shows the specific date on which the inventory count and value were recorded.
+   - **Current State in TotalFlow**: Supported.
+   - **Importance**: Helps maintain accurate historical records of inventory data.
+
+10. **Minimum Reorder Point**
+    - **Description**: Indicates the minimum quantity of an item that should trigger a reorder to prevent stockouts.
+    - **Current State in TotalFlow**: Supported.
+    - **Importance**: Ensures uninterrupted operations and customer satisfaction.
+
+11. **Maximum Reorder Point**
+    - **Description**: Specifies the maximum quantity to which an item should be replenished.
+    - **Current State in TotalFlow**: Supported.
+    - **Importance**: Prevents overstocking, reducing storage costs.
+
+12. **Quantity Alert**
+    - **Description**: Notifies users when inventory levels reach critical thresholds.
+    - **Current State in TotalFlow**: Supported.
+    - **Importance**: Enhances proactive inventory management.
+
+---
+
+## Missing Features in TotalFlow
+
+The following sub-items are missing in TotalFlow's Inventory Information feature:
+
+1. **Location**
+   - QuickBooks Feature: Allows tracking the physical location of items.
+   - Importance: Essential for businesses managing inventory across multiple sites.
+   - Recommendation: Add a "Location" field.
+
+2. **Rack**
+   - QuickBooks Feature: Helps pinpoint the rack where inventory is stored within a warehouse.
+   - Importance: Improves operational efficiency in large storage facilities.
+   - Recommendation: Introduce a "Rack" field.
+
+3. **Shelf**
+   - QuickBooks Feature: Identifies the specific shelf within a rack.
+   - Importance: Key for organizing and retrieving inventory quickly.
+   - Recommendation: Add a "Shelf" field.
+
+4. **Bin**
+   - QuickBooks Feature: Tracks inventory at the bin level.
+   - Importance: Enables precise categorization and minimizes errors.
+   - Recommendation: Include a "Bin" field.
+
+---
+
+## Recommendations
+To achieve feature parity with QuickBooks:
+- Develop a plan to incorporate "Location," "Rack," "Shelf," and "Bin" fields in TotalFlow.
+- Ensure the user interface is intuitive for managing these fields.
+- Provide training materials to guide users on utilizing these features.
+
+---
+
+## Linked Issues
+- [#8: Add support for "Location"](../../issues/8)
+- [#9: Add support for "Rack"](../../issues/9)
+- [#10: Add support for "Shelf"](../../issues/10)
+- [#11: Add support for "Bin"](../../issues/11)
+
+## Milestone
+This feature is part of the **"Inventory Information Parity with QuickBooks"** milestone. Progress can be tracked [here](../../milestone/2).
+
